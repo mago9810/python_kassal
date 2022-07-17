@@ -72,11 +72,29 @@ DATA = [
 ]
 
 def run():
-    empleados_python = [empleados['name'] for empleados in DATA  if empleados['language'] == "python"]
+    # empleados_python = [empleados['name'] for empleados in DATA  if empleados['language'] == "python"]
+    empleados_python = list(filter(lambda empleados: empleados['language'] == "python", DATA)) 
+    empleados_python = list(map(lambda empleado: empleado['name'] ,empleados_python ))
+    # all_platzi_workers = [empleados['name'] for empleados in DATA if empleados['organization'] == 'Platzi']
+    all_platzi_workers = list(filter(lambda empleados: empleados['organization'] == 'Platzi' ,DATA))
+    all_platzi_workers = list(map(lambda empleados: empleados['name'], all_platzi_workers))
 
-    for empleados in empleados_python:
+
+    # adults = list(filter(lambda trabajador: trabajador['age'] > 18 ,DATA))
+    # adults = list(map(lambda trabajador: trabajador['name'], DATA))
+
+    adults = [trabajador['name'] for trabajador in DATA if trabajador['age'] > 18]
+
+
+    # for empleados in empleados_python:
+    #     print(empleados)
+
+    # for empleados_platzi in all_platzi_workers:
+    #     print(empleados_platzi)
+
+    for empleados in adults:
         print(empleados)
 
 
-if __name__ == '__main':
+if __name__ == '__main__':
     run()

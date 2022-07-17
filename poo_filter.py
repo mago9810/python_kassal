@@ -18,5 +18,4 @@ salarios_altos = filter(lambda empleado: empleado.salario > 15000, lista_emplead
 
 for empleado_salario in salarios_altos:
     print(empleado_salario)
-
     

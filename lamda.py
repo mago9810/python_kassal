@@ -12,5 +12,9 @@ def run ():
     sueldo_diego = 15000
     print(format_sueldo(sueldo_diego))
 
+
+
+
+
 if __name__ == '__main__':
     run()

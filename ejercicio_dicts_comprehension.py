@@ -1,10 +1,3 @@
-# num = {}
-# for i in range(1,100):
-#     num [i] = i**3
-
-# print(num)
-
-
 def run():
     # numnot3 = {}
     # for i in range(1,100):
@@ -16,3 +9,5 @@ def run():
     print(numnot3)
 if __name__ == '__main__':
     run()
+
+    

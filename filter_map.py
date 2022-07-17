@@ -28,11 +28,11 @@ numeros=[2,1,4,3,5]
 resultado=reduce(lambda a,b: a if a > b else b,numeros)
 print (resultado)
 
+
 s =('h','o','l','a','-','m','u','n','d','o')
 
 def concatenar(a,b):
     return a+b
-
 sr = reduce(concatenar,s)
 
 print(type(sr))
