@@ -29,7 +29,7 @@ def run ():
         if nombre["firsname"] == "diego":
             print("ok")
 
-if __name__ == '__main__':
+if __name__ == '__main__':  
 
 
 

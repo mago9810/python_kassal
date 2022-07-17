@@ -1,0 +1,40 @@
+[33mcommit 73ba062257039dce0acabcce47de7ee1d5d9be37[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Merge: e8737e7 4b12ad9
+Author: Diego Gonzalez <mago9810@gmail.com>
+Date:   Fri Jul 15 21:03:53 2022 -0500
+
+    Merge branch 'main' of github.com:mago9810/python_kassal
+
+[33mcommit e8737e72f7eca8cdfe334b88a743021475f10f86[m
+Author: Diego Gonzalez <mago9810@gmail.com>
+Date:   Fri Jul 15 20:44:26 2022 -0500
+
+    Commit ejercicios list y dicts
+
+[33mcommit 4b12ad9b512822eacd5e3155ce9cb13704478e00[m[33m ([m[1;31morigin/main[m[33m)[m
+Merge: 750458f a8302e0
+Author: mago9810 <105835246+mago9810@users.noreply.github.com>
+Date:   Mon Jun 13 11:56:52 2022 -0500
+
+    Merge pull request #1 from mago9810/master
+    
+    Master
+
+[33mcommit a8302e0e7871d6e8745cbb94de2fb512e1248d1a[m
+Merge: da151c6 750458f
+Author: Diego Gonzalez <mago9810@gmail.com>
+Date:   Mon Jun 13 11:43:49 2022 -0500
+
+    Merge branch 'main' of https://github.com/mago9810/python_kassal
+
+[33mcommit da151c6747afca14c48d9c726ba81cd6093c0e24[m
+Author: Diego Gonzalez <mago9810@gmail.com>
+Date:   Mon Jun 13 11:40:13 2022 -0500
+
+    Iniciamos el proyecto de kassal
+
+[33mcommit 750458f8d94302e8fe98de43d7f97b0d6577674a[m
+Author: mago9810 <105835246+mago9810@users.noreply.github.com>
+Date:   Sat Jun 11 16:26:02 2022 -0500
+
+    Initial commit
